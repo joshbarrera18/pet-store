@@ -64,6 +64,13 @@ a:hover {
 }
 /*END OF CONTENT*/
 
+/*SERVICES*/
+.services {
+	margin-bottom:25px;
+}
+
+/*END OF SERVICES*/
+
 /*FOOTER*/
 .footer {
 	background-color: #231f20;
@@ -93,3 +100,25 @@ footer fine-print {
 
 
 /*END OF FOOTER*/
+
+/*media queries*/
+
+@media (max-width: 767px) {
+	.center {
+		float:none;
+		margin:0 auto;
+	}
+
+	.bottom {
+		top: 0;
+	}
+
+	.social {
+		text-align:center;
+		font-size:45px;
+	}
+
+	.social i {
+		margin:20px 10px 0px;
+	}
+}
