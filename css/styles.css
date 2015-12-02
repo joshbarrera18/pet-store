@@ -44,7 +44,6 @@ a:hover {
 
 /*END OF JUMBOTRON*/
 
-.featured li a {
-	font-size:300;
-	font-family:'Open Sans';
+.footer {
+	background-color:#eaeaea;
 }
